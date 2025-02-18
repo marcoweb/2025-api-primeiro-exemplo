@@ -1,0 +1,22 @@
+@url = https://fluffy-disco-vp655956v9hrj-8080.app.github.dev
+GET {{url}}/tarefas
+
+###
+POST {{url}}/tarefas
+Content-Type: application/json
+
+{
+    "id": 2,
+    "descricao": "Exemplo 2"
+}
+
+###
+PUT {{url}}/tarefas/2
+Content-Type: application/json
+
+{
+    "descricao" : "Registro Alterado Novo"
+}
+
+###
+DELETE {{url}}/tarefas/2
