@@ -2,16 +2,19 @@
 GET {{url}}/tarefas
 
 ###
+GET {{url}}/tarefas/3
+
+###
 POST {{url}}/tarefas
 Content-Type: application/json
 
 {
-    "id": 2,
-    "descricao": "Exemplo 2"
+    "id": 3,
+    "descricao": "Exemplo 3"
 }
 
 ###
-PUT {{url}}/tarefas/2
+PUT {{url}}/tarefas/1
 Content-Type: application/json
 
 {
